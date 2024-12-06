@@ -22,3 +22,37 @@ The input file should follow this format:
 ## Output Format
 The program outputs the total number of sprockets required to build the omnidroid in the following format:
 An omnidroid with parts and dependencies, takes <total_cost> sprockets to build.
+
+## Compilation and Execution
+1. Save the python file as main.py
+2. Save the provided input to a text file, e.g., `example-input.txt`, in the same directory as `main.py`.
+3. Open Git Bash or Command Prompt and navigate to the directory using the `cd` command.
+4. Execute the following commnad:
+   ````sh
+   python main.py example-input.txt
+
+## Example Output
+If the input is:
+8 12
+0 1
+0 1
+0 2
+0 2
+4 6
+5 6
+1 7
+1 7
+2 7
+2 7
+3 7
+6 7
+4
+2
+6
+24
+14
+5
+3
+6
+The output will be:
+An omnidroid with 8 parts and 12 dependencies takes 100 sprockets to build.
