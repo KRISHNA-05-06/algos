@@ -30,9 +30,11 @@ An omnidroid with parts and dependencies, takes <total_cost> sprockets to build.
 4. Execute the following commnad:
    ````sh
    python main.py example-input.txt
+   ````
 
 ## Example Output
 If the input is:
+````sh
 8 12
 0 1
 0 1
@@ -54,5 +56,9 @@ If the input is:
 5
 3
 6
+````
+
 The output will be:
+````sh
 An omnidroid with 8 parts and 12 dependencies takes 100 sprockets to build.
+````
