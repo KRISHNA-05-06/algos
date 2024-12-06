@@ -33,7 +33,7 @@ An omnidroid with parts and dependencies, takes <total_cost> sprockets to build.
    ````
 
 ## Example Output
-If the input is:
+If the input in input-example.txt is:
 ````sh
 8 12
 0 1
